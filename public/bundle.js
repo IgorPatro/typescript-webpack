@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hello World"),console.log("Hello World #2")})();
+(()=>{"use strict";const e=document.querySelector("form");e&&e.addEventListener("submit",(t=>{t.preventDefault(),(e=>{const t=e.querySelectorAll("input");let o={};t.forEach((e=>{o[e.id]=e.value})),console.log(o)})(e)}))})();

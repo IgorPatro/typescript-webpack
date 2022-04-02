@@ -1,6 +1,7 @@
 const path = require("path")
 
 module.exports = {
+  devtool: "source-map",
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "public"),
@@ -23,7 +24,6 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
-    compress: true,
     port: 9000,
   },
 }
