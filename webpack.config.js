@@ -15,6 +15,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
   mode: process.env.ENV ?? "production",
   devServer: {
     static: {
